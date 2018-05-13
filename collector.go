@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/kylegrantlucas/nextcloud-exporter/serverinfo"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/xperimental/nextcloud-exporter/serverinfo"
 )
 
 var (

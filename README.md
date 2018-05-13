@@ -7,7 +7,7 @@ A [prometheus](https://prometheus.io) exporter for getting some metrics of a nex
 If you have a working Go installation, getting the binary should be as simple as
 
 ```bash
-go get github.com/xperimental/nextcloud-exporter
+go get github.com/kylegrantlucas/nextcloud-exporter
 ```
 
 ## Client credentials

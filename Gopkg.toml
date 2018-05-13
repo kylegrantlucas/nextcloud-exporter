@@ -32,7 +32,3 @@
 [[constraint]]
   name = "github.com/spf13/pflag"
   version = "1.0.1"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/xperimental/nextcloud-exporter"

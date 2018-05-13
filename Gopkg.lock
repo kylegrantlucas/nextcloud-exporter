@@ -21,7 +21,10 @@
 
 [[projects]]
   name = "github.com/prometheus/client_golang"
-  packages = ["prometheus"]
+  packages = [
+    "prometheus",
+    "prometheus/promhttp"
+  ]
   revision = "c5b7fccd204277076155f10851dad72b76a49317"
   version = "v0.8.0"
 
@@ -58,15 +61,9 @@
   revision = "583c0c0531f06d5278b7d917446061adc344b5cd"
   version = "v1.0.1"
 
-[[projects]]
-  branch = "master"
-  name = "github.com/xperimental/nextcloud-exporter"
-  packages = ["serverinfo"]
-  revision = "b17bbec42e768db7a8ac5629ab69d940a8012da8"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "37620c084109c49049c726fd74764dc4a7218e0eb7eec190ecb9af9a8b81c7e0"
+  inputs-digest = "955f1f26e0c18b2673731bfd9ceeb48204e92aaf3d268a82fa80c58899434306"
   solver-name = "gps-cdcl"
   solver-version = 1
